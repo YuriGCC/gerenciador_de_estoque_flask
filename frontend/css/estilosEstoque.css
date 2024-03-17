@@ -1,0 +1,8 @@
+.opcaoEstoque {
+    color: white;
+    margin: 10px;
+}
+
+.opcaoEstoque:hover {
+    background-color: var(--cor--padraoClaro);
+}

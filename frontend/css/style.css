@@ -1,0 +1,129 @@
+/* estilos gerais */
+
+:root {
+    --cor--padrao: rgb(19, 199, 215);
+    --cor--padraoClaro: #32cbd9;
+    --cor--padraoLaranja: #ff8a00;
+}
+
+.bg-pattern{
+    background-color: var(--cor--padrao);
+}
+
+.bg-patternLight{
+    background-color: var(--cor--padraoClaro) ;
+}
+
+.bg-patternOrange {
+    background-color: var(--cor--padraoLaranja);
+}
+
+.header {
+    color: white;
+}
+
+.header button {
+    background-color: var(--cor--padraoLaranja);
+    color: white;
+
+}
+
+.header button:hover {
+    background-color: var(--cor--padraoClaro);
+}
+
+/* estilo global */
+.content {
+    box-sizing: border-box;
+    display: box;
+    background-color: var(--cor--padrao);
+}
+
+.logout {
+    background-color: var(--cor--padraoLaranja);
+    width: 50px;
+    height: 30px;
+}
+
+input:invalid {
+    border: red 1px solid;
+}
+
+
+/* login pagina */
+
+.formLogin {
+    width: 900px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.formLogin label {
+    color: var(--cor--branca);
+}
+
+.formLogin input {
+    width: 500px;
+}
+
+.formLogin input, .formLogin label {
+    display: inline-block;
+}
+#aviso {
+    color: var(--cor--branca);
+}
+
+.recuperarSenha {
+    margin: 0 10px;
+}
+
+.areaLogo img {
+    width: 235px;
+    height: 185px;
+    margin-bottom: 10px;
+}
+
+.areaLogo {
+    width: 235px;
+    height: 185px;
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+
+#senhaLoginAviso {
+    color: white;
+}
+
+.btn.btn-light:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+
+/* formulários de registro */
+
+.formularioRegistro {
+    background-color: var(--cor--padraoClaro);
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+}
+
+.logoRegistroForm img {
+    width: 250px;
+    height: 250px;
+}
+
+/* home page */
+
+.mainHome button {
+    background-color: var(--cor--padraoLaranja);
+    width: 150px;
+    height: 100px;
+}
+
+.mainHome button:hover {
+    background-color: var(--cor--padraoClaro);
+}
+

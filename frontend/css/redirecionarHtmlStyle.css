@@ -1,0 +1,36 @@
+html {
+    background-color: #32cbd9;
+}
+
+.content {
+    margin-top: 150px;
+    background-color: #32cbd9;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redirecionarClasse {
+    display: block;
+}
+
+.redirecionarClasse h1 {
+    color: white;
+}
+
+.redirecionarClasse button {
+    background: rgb(255, 83, 21);
+    border: 2px solid rgb(255, 83, 21);
+    padding: 20px;
+    color: white;
+    font-size: large;
+}
+
+.redirecionarClasse button:hover {
+    font-size: larger;
+    padding: 21px;
+    background: rgb(255, 68, 0);
+    border: 4px ridge rgb(255, 83, 21);
+}
