@@ -11,5 +11,5 @@ Para uso, algumas dependências precisam ser instaladas na máquina, abaixo est�
 Nota: Para usuários de sistemas operacionais diferentes do windows, a opção de recuperar a senha não funcionará pois a biblioteca usada é exclusiva do windows, se este for o caso, considere remover o arquivo backend/utilidades/envio_email_com_senha.py e no arquivo backend/utilidades/__init__.py remover da lista o elemento 'envio_email_com_senha'. Para o funcionamento da recuperação de senha também é necessário estar logado no Outlook na sua máquina.
 
 Modo de uso:
-Execute o arquivo backend/executar_backendy.py, e em um novo terminal acesse a pasta do projeto e execute o comando python -m http. server
+Execute o arquivo backend/executar_backendy.py, e em um novo terminal acesse a pasta do projeto e execute o comando python -m http. server, em seguida acesse em seu navegador o url localhost:8000/html
 
